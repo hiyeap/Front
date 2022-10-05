@@ -1,1 +1,1 @@
-### 광주 인공지능사관학교 Front 수업
+### 광주 인공지능사관학교 HTML/CSS, Javascript
