@@ -1,0 +1,12 @@
+/* order : flex 요소의 순서를 지정
+
+default 0, 양수 or 음수!
+*/
+
+#pond {
+  display: flex;
+}
+
+.red {
+  order: -1;
+}

@@ -1,0 +1,12 @@
+/* flex-direction: 다음 값들을 인자로 받아 컨테이너 안에서 요소들이 정렬해야할 방향을 지정
+
+- row(default): 요소들을 텍스트의 방향과 동일하게 정렬
+- row-reverse: 요소들을 텍스트의 반대 방향으로 정렬
+- column: 요소들을 위에서 아래로 정렬
+- column-reverse: 요소들을 아래에서 위로 정렬
+*/
+
+#pond {
+  display: flex;
+  flex-direction: row-reverse;
+}

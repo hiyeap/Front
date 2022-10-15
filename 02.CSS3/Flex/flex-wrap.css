@@ -1,0 +1,11 @@
+/* flex-wrap : flex 요소를 한 줄 또는 여러 줄에 걸쳐 정렬
+
+- nowrap(default): 모든 요소들을 한 줄에 정렬
+- wrap: 요소들을 여러 줄에 걸쳐 정렬
+- wrap-reverse: 요소들을 여러 줄에 걸쳐 반대로 정렬
+*/
+
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+}

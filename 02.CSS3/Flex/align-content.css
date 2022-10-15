@@ -1,0 +1,15 @@
+/* align-content : 세로선 상에 여분의 공간이 있는 경우 flex 컨테이너 사이의 간격을 조절
+
+- flex-start: 여러 줄들을 컨테이너의 꼭대기에 정렬
+- flex-end: 여러 줄들을 컨테이너의 바닥에 정렬
+- center: 여러 줄들을 세로선 상의 가운데에 정렬
+- space-between: 여러 줄들 사이에 동일한 간격을 둠.
+- space-around: 여러 줄들 주위에 동일한 간격을 둠.
+- stretch(default): 여러 줄들을 컨테이너에 맞도록 늘림.
+*/
+
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+}
